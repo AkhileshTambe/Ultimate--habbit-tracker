@@ -22,4 +22,13 @@ new Chart(ctx, {
   }
 
 });
+gapi.client.sheets.spreadsheets.values.append({
+  spreadsheetId: SHEET_ID,
+  range: "Sheet1!A:C",
+  valueInputOption: "RAW",
+  resource: {
+    values: [[date, habit, status]]
+  }
+});
+
 
