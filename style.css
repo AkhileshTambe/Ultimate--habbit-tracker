@@ -1,0 +1,39 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #0f172a;
+
+  color: #e5e7eb;
+
+  padding: 20px;
+
+}
+
+
+h1 {
+
+  text-align: center;
+
+}
+
+
+#habit-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(31, 1fr);
+
+  gap: 5px;
+
+  margin-top: 20px;
+
+}
+
+
+input[type="checkbox"] {
+
+  transform: scale(1.3);
+
+}
+
